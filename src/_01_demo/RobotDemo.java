@@ -25,7 +25,7 @@ public class RobotDemo {
 		rob.setSpeed(100);
 
 		for(int i = 0; i < 40; i++){
-			rob.move(200);
+			rob.move(100);
 			rob.turn(70);
 		}
 	}
@@ -54,7 +54,7 @@ public class RobotDemo {
   
 		rob.turn(90);
 		rob.penUp();
-		rob.move(185);
+		rob.move(100);
 		rob.turn(-90);
 		rob.setSpeed(2);
 		rob.move(-75);
